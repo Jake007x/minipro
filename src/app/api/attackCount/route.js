@@ -16,7 +16,7 @@ export async function GET() {
   try {
     const result = await client.query(`
       SELECT att
-      FROM "sin078"
+      FROM "Si078"
       WHERE id = $1
     `, [87]);
 

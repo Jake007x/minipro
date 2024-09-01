@@ -17,7 +17,7 @@ export const dynamic = 'force-dynamic';
 // -------------------------------------------------------------------------------------
 export async function GET() {
   try {
-    const result = await client.query('SELECT * FROM "sin078"');
+    const result = await client.query('SELECT * FROM "Si078"');
     return new Response(JSON.stringify(result.rows), {
       status: 200,
       headers: {

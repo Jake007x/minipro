@@ -20,7 +20,7 @@ export async function POST(request) {
       }
 
       const res = await client.query(
-          'UPDATE "sin078" SET command = $1 WHERE id = $2 RETURNING *',
+          'UPDATE "Si078" SET command = $1 WHERE id = $2 RETURNING *',
           [command, 87] // ใช้ `1` เป็น ID ของแถวที่ต้องการอัปเดต หากมีหลายแถวให้ปรับเป็น ID ที่ต้องการ
       );
 
