@@ -13,8 +13,8 @@
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
-  background-color: #f84646; /* Light green background */
-  border: 2px solid #42a158; /* Slightly darker green border */
+  background-color: #ffa4a4; /* Light green background */
+  border: 2px solid #666666; /* Slightly darker green border */
   border-radius: 12px;
   width: 50%;
   text-align: center;
@@ -24,7 +24,7 @@
 .attackCount {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #155724; /* Dark green */
+  color: #2dcde2; /* Dark green */
   margin-top: 10px;
 }
 
